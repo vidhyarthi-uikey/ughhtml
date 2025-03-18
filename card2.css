@@ -1,0 +1,30 @@
+
+.container{
+display: flex;
+justify-content: space-evenly;
+}
+.card{
+    border: 1px solid black;
+    width: 300px;
+    justify-items: center;
+    
+}
+ .contant{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+} 
+button{
+    height: 30px;
+    background-color: blue;
+}
+.card2{
+    border: 1px solid black;
+    width: 300px;
+    justify-items: center;
+}
+.card3{
+border: 1px solid black;
+width: 300px;
+    justify-items: center;
+}
