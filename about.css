@@ -1,0 +1,22 @@
+/* .head{
+    color: aqua;
+    font-family: "Open Sans", sans-serif;
+  }
+
+.head1{
+    color: blue;
+
+        font-family: "Boldonse", system-ui;
+      } */
+  /* img{
+    position: fixed;
+    top: 0px;
+  }     */
+.head{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aqua;
+color: white;
+position: sticky;
+
+}

@@ -1,0 +1,14 @@
+.head{
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 50px;
+
+}
+.ch{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+}

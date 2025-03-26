@@ -1,0 +1,15 @@
+button:hover{
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+.parent1 h2:first-child{
+    background-color: aqua;
+}
+.parent2 h2:last-child{
+    background-color: brown;
+} 
+.parent3 h2:nth-child(odd){
+    background-color: blue;
+}

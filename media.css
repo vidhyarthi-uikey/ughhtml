@@ -1,0 +1,5 @@
+@media screan and (min-width:700px) and(mas-width:700px){
+    body{
+        background-color: blue;
+    }
+}

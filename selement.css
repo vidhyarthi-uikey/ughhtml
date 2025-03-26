@@ -1,0 +1,18 @@
+.para::first-letter{
+    font-size: 50px;
+    color: blue;
+}
+.para::first-line{
+    color: aquamarine;
+}
+.name::after{
+    content: "world";
+    color: aqua;
+}
+.name::before{
+    content: "hello";
+    color: blue;
+}
+input::placeholder{
+    color: red;
+}
