@@ -1,11 +1,34 @@
 .navbar{
-    background-color: aqua;
+    height: 150px;
+    width: 100%;
+    background-color:yellowgreen;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .navbar ul{
-    display: flex;
-    list-style: none;
-    gap: 30px;
+    display: none;
+     list-style: none; 
+    /* gap: 30px;  */
+    position: absolute;
+    top: 100px;
+    background-color: blue;
+    width: 100%;
+}
+.navbar label{
+    display: none;
+}
+#click:checked~.navbar ul{
+    display: block;
+}
+@media screen and (max-width: 650px) {
+    .navbar label{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+}
+#click{
+    display: none;
 }

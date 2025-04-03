@@ -1,4 +1,4 @@
-/* body{
+body{
     justify-items: center;
 }
 .card{
@@ -20,15 +20,15 @@ a{
 }
 p{
     margin-left: 10px;
-} */
- /* .card{
+} 
+ .card{
     background-color: blue;
     height: 300px;
     width: 300px;
-    box-shadow: 3px 4px 12px 6px red;
+    box-shadow: 3px  4px red;
     border-top-left-radius: 30px;
- } */
-  /* .parent{
+ } 
+  .parent{
     display: flex;
     justify-content: space-evenly;
-  } */
+  } 
